@@ -1,0 +1,162 @@
+{
+  "locale": "en",
+  "htmlLang": "en-GB",
+  "ogLocale": "en_GB",
+  "ogLocaleAlternate": "es_ES",
+  "dir": "ltr",
+  "pathPrefix": "en/",
+  "meta": {
+    "title": "Braspaña Sabores — Brazilian bakery and coffee in Vilanova i la Geltrú",
+    "description": "Braspaña Sabores, a Brazilian café and bakery in Vilanova i la Geltrú. Pastel de feira, coxinha, caldo de cana, tapioca and açaí, all made to order. Open Monday to Saturday from 6:00.",
+    "ogTitle": "Braspaña Sabores — A taste of Brazil in Vilanova",
+    "ogDescription": "Pastel de feira, coxinha, caldo de cana and açaí, made fresh to order. Brazilian coffee in Vilanova i la Geltrú."
+  },
+  "a11y": {
+    "skip": "Skip to content",
+    "home": "Braspaña Sabores — home",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "mainNav": "Main navigation",
+    "footerNav": "Footer navigation",
+    "socialNav": "Social media",
+    "atAGlance": "At a glance",
+    "mapTitle": "Map showing Braspaña Sabores in Vilanova i la Geltrú",
+    "waAria": "Message Braspaña Sabores on WhatsApp at 667 34 01 75",
+    "telAria": "Call Braspaña Sabores on 667 34 01 75",
+    "ratingAria": "Rated 4.7 out of 5 from 58 Google reviews",
+    "langSwitch": "Change language",
+    "newWindow": "opens in a new tab"
+  },
+  "brand": {
+    "sub": "Brazilian bakery · Vilanova i la Geltrú"
+  },
+  "nav": {
+    "about": "About",
+    "specialties": "Specialities",
+    "reviews": "Reviews",
+    "visit": "Visit"
+  },
+  "langSwitch": {
+    "es": "ES",
+    "en": "EN",
+    "esAria": "View this page in Spanish",
+    "enAria": "View this page in English"
+  },
+  "hero": {
+    "eyebrow": "Brazilian café & bakery",
+    "openNow": "Open now · until {close}",
+    "closedToday": "Closed today",
+    "closedOpens": "Closed · opens {open}",
+    "title": "A taste of Brazil,<br>made to order.",
+    "lede": "Crisp pastel de feira, coxinha straight from the fryer, ice-cold caldo de cana and coffee the way it's made back home. In Vilanova i la Geltrú, from six in the morning.",
+    "ctaPrimary": "Find us",
+    "ctaWhatsapp": "WhatsApp",
+    "statRating": "out of 5 on Google",
+    "statReviews": "Google reviews",
+    "statPrice": "per person"
+  },
+  "about": {
+    "eyebrow": "The place",
+    "title": "Real Brazilian food,<br>just around the corner.",
+    "p1": "Braspaña began with saudade: that very specific longing for a pastel de feira pulled hot from the oil, a glass of ice-cold caldo de cana, a coxinha that tastes exactly the way it should.",
+    "p2": "Everything here is made to order, in small batches, the way it's done in Brazil. No shortcuts and nothing from the freezer — just dough, filling, and someone frying it for you when you ask.",
+    "note": "We open at 6:00, Monday to Saturday.",
+    "factAddress": "Where we are",
+    "factPhone": "Phone",
+    "factHours": "Hours",
+    "hoursValue": "Monday to Saturday, from 6:00",
+    "factType": "What we are",
+    "typeValue": "Coffee shop and Brazilian food store"
+  },
+  "specialties": {
+    "eyebrow": "Specialities",
+    "title": "What comes out of the fryer",
+    "pastel": {
+      "title": "Pastel de feira",
+      "text": "Thin, crisp pastry fried to order. The classic of every Brazilian market, and big enough that you won't finish it."
+    },
+    "coxinha": {
+      "title": "Coxinha",
+      "text": "Shredded chicken wrapped in cassava dough, breaded and fried. Shaped like a teardrop, the way it should be."
+    },
+    "caldo": {
+      "title": "Caldo de cana",
+      "text": "Sugar cane pressed to order and served properly cold. Sweet, light, and impossible to fake."
+    },
+    "tapioca": {
+      "title": "Tapioca recheada",
+      "text": "A cassava-starch flatbread with whatever filling you like. Gluten free and ready in a minute."
+    },
+    "acai": {
+      "title": "Açaí",
+      "text": "Thick açaí with fruit and granola. Cold, dense, with the flavour of northern Brazil."
+    },
+    "cafe": {
+      "title": "Brazilian coffee",
+      "text": "Real coffee, served the Brazilian way: small, hot and without ceremony."
+    }
+  },
+  "capabilities": {
+    "serviceOptions": "Service",
+    "foodAndDrink": "Food & drink",
+    "atmosphere": "Atmosphere",
+    "amenities": "Amenities",
+    "parking": "Parking",
+    "accessibility": "Accessibility",
+    "payments": "Payments",
+    "labels": {
+      "Dine-in": "Dine-in",
+      "Takeaway": "Takeaway",
+      "Coffee": "Coffee",
+      "Brazilian snacks": "Brazilian food",
+      "Free street parking": "Free street parking",
+      "Wheelchair-accessible entrance": "Wheelchair-accessible entrance",
+      "Credit cards": "Credit cards",
+      "Debit cards": "Debit cards",
+      "Contactless (NFC)": "Contactless (NFC)"
+    }
+  },
+  "reviews": {
+    "eyebrow": "What people say",
+    "title": "Almost everyone comes back",
+    "count": "{count} reviews",
+    "onGoogle": "on Google",
+    "readAll": "Read all reviews on Google",
+    "originalIn": "Originally in {lang}",
+    "originalText": "Original text"
+  },
+  "visit": {
+    "eyebrow": "Visit",
+    "title": "Come by Braspaña",
+    "whatsapp": "WhatsApp",
+    "call": "Call",
+    "directions": "Directions",
+    "directionsSub": "Open in Maps",
+    "hours": "Opening hours",
+    "openMap": "Open in Google Maps",
+    "today": "Today",
+    "closed": "Closed"
+  },
+  "footer": {
+    "writeReview": "Write a review",
+    "rights": "All rights reserved.",
+    "dataNote": "Details from Google Maps, current as of {date}."
+  },
+  "days": {
+    "0": "Sunday",
+    "1": "Monday",
+    "2": "Tuesday",
+    "3": "Wednesday",
+    "4": "Thursday",
+    "5": "Friday",
+    "6": "Saturday"
+  },
+  "languageNames": {
+    "pt": "Portuguese",
+    "es": "Spanish",
+    "en": "English"
+  },
+  "place": {
+    "country": "Spain"
+  }
+}

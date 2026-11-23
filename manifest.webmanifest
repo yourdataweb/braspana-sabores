@@ -1,0 +1,24 @@
+{
+  "name": "BRASPAÑA SABORES (Breston)",
+  "short_name": "Braspaña",
+  "description": "Braspaña Sabores, a Brazilian café and bakery in Vilanova i la Geltrú. Pastel de feira, coxinha, caldo de cana, tapioca and açaí, all made to order. Open Monday to Saturday from 6:00.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#2a1810",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "assets/photos/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/photos/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

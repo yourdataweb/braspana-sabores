@@ -1,0 +1,132 @@
+{
+  "place": {
+    "id": "ChIJxc7w0uaGoxIRXPmg0X4WUMU",
+    "cid": "14217888757547333980",
+    "name": "BRASPAÑA SABORES",
+    "fullName": "BRASPAÑA SABORES (Breston)",
+    "codeName": "braspana-sabores",
+    "shortName": "Braspaña",
+    "formattedAddress": "08800 Vilanova i la Geltrú, Barcelona, Spain",
+    "street": "",
+    "locality": "Vilanova i la Geltrú",
+    "region": "Barcelona",
+    "postalCode": "08800",
+    "country": "ES",
+    "latitude": 41.2225579,
+    "longitude": 1.7314826,
+    "primaryType": "coffee_shop",
+    "types": ["coffee_shop", "cafe", "food_store", "food", "store", "point_of_interest", "establishment"],
+    "phoneNational": "667 34 01 75",
+    "phoneInternational": "+34 667 34 01 75",
+    "phoneE164": "+34667340175",
+    "whatsappNumber": "34667340175",
+    "whatsappPrefill": "",
+    "website": "",
+    "rating": 4.7,
+    "userRatingCount": 58,
+    "businessStatus": "OPERATIONAL",
+    "priceRange": { "currency": "EUR", "start": 10, "end": 20 },
+    "timeZone": "Europe/Madrid",
+    "plusCode": "8FH36PFJ+2H"
+  },
+
+  "map": {
+    "embedUrl": "https://www.google.com/maps?q=41.2225579,1.7314826&z=17&output=embed",
+    "placeUri": "https://maps.google.com/?cid=14217888757547333980",
+    "directionsUri": "https://www.google.com/maps/dir/?api=1&destination=41.2225579,1.7314826&destination_place_id=ChIJxc7w0uaGoxIRXPmg0X4WUMU",
+    "reviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x12a386e6d2f0cec5:0xc550167ed1a0f95c!9m1!1b1",
+    "writeReviewUri": "https://search.google.com/local/writereview?placeid=ChIJxc7w0uaGoxIRXPmg0X4WUMU",
+    "photosUri": "https://www.google.com/maps/place//data=!4m3!3m2!1s0x12a386e6d2f0cec5:0xc550167ed1a0f95c!10e5"
+  },
+
+  "social": {
+    "_comment": "No social profiles in the Places payload. Add 'instagram','facebook','tiktok' with full URLs and they appear in the social bar automatically.",
+    "google": "https://maps.google.com/?cid=14217888757547333980"
+  },
+
+  "hours": {
+    "periods": [
+      { "day": 1, "open": "06:00", "close": "21:30" },
+      { "day": 2, "open": "06:00", "close": "21:30" },
+      { "day": 3, "open": "06:00", "close": "21:30" },
+      { "day": 4, "open": "06:00", "close": "21:30" },
+      { "day": 5, "open": "06:00", "close": "21:30" },
+      { "day": 6, "open": "06:00", "close": "20:00" }
+    ],
+    "closedDays": [0]
+  },
+
+  "specialties": [
+    { "key": "pastel", "icon": "pastel" },
+    { "key": "coxinha", "icon": "coxinha" },
+    { "key": "caldo", "icon": "cane" },
+    { "key": "tapioca", "icon": "tapioca" },
+    { "key": "acai", "icon": "acai" },
+    { "key": "cafe", "icon": "coffee" }
+  ],
+
+  "reviews": [
+    {
+      "author": "Iza B",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjWFrESnBo0lhBxBqqcjbbsc1tj_SWj0j8ug3muY4zSqEdSnyLQ=s128-c0x00000000-cc-rp-mo-ba4",
+      "rating": 5,
+      "lang": "pt",
+      "relativeTime": { "es": "hace 2 meses", "en": "2 months ago" },
+      "text": "Atendimento gentil e são muito simpáticos. Comemos coxinha de frango com massa de mandioca e pastel frito de carne. Estava tudo bom e bem feito! Gostaria que tivessem coxinha tradicional com massa tradicional também para matar a vontade do sabor tradicional da coxinha brasileira. Um lugar que voltarei para matar a saudade da comida brasileira."
+    },
+    {
+      "author": "Bruna Bermejo",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUuWdfSBLdZvUuO2n6qh6kpOd80tL82RURSRgVW0wK7sebaZMYd3A=s128-c0x00000000-cc-rp-mo-ba3",
+      "rating": 5,
+      "lang": "pt",
+      "relativeTime": { "es": "hace 3 meses", "en": "3 months ago" },
+      "text": "Pensa em um ambiente bom, cafezinho gostoso, pastel de feira MARAVILHOSO e muito grande (nunca conseguir terminar de comer kkkk) e um caldo de cana maravilhoso, também! Estou muito contente com este restaurante. Eles fazem tudo ao momento, coisa que é difícil de achar hoje em dia. As coisas são bem em conta. Não é caro. Na minha opinião, é até barato demais! A Elaine e a cozinheira, são um 1000/10!"
+    },
+    {
+      "author": "HORTA BOM DEMAIS",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUuNeJys3PPTXhTkbsYYVU-SoHX9btM5Sh8KcoSN6vUABdvZHo=s128-c0x00000000-cc-rp-mo-ba2",
+      "rating": 5,
+      "lang": "pt",
+      "relativeTime": { "es": "hace 7 meses", "en": "7 months ago" },
+      "text": "Experiência incrível no Braspaña! O pastel de feira estava simplesmente perfeito — crocante por fora e recheio delicioso, igualzinho ao do Brasil! E o Pastel de costelinha… sem palavras, uma verdadeira delícia, cheio de sabor e bem servido! Comida que traz aquela nostalgia boa e mata a saudade de casa."
+    },
+    {
+      "author": "Shirley Martins",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjUn4WTabS7A28WbJ9akyDHbd7EqnFpvhB_mV13-ZZxFT3s3IIVK=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "lang": "pt",
+      "relativeTime": { "es": "hace 5 meses", "en": "5 months ago" },
+      "text": "Ontem matei a saudade de comer pastel de feira, beber aquele caldo de cana, aquela tapioca recheada que não pode faltar e coxinhas. Tudo uma delícia!! Nota 10 (atendimento, ambiente e comida)."
+    },
+    {
+      "author": "Raquel Saade",
+      "avatar": "https://lh3.googleusercontent.com/a-/ALV-UjVrSD20xxEYfvLQVc4R66TTrdJijLhNvHZpOxUuir4hG6L-Vi6UzQ=s128-c0x00000000-cc-rp-mo",
+      "rating": 5,
+      "lang": "es",
+      "relativeTime": { "es": "hace 7 meses", "en": "7 months ago" },
+      "text": "Muy buena comida brasileña. El pastel de feira mixto y la coxinha de yuca con pollo lo mejor. El açaí buenísimo. Ambiente muy muy muy agradable, me he sentido en Brasil por un momento."
+    }
+  ],
+
+  "features": {
+    "serviceOptions": [
+      { "key": "Dine-in", "value": true },
+      { "key": "Takeaway", "value": true }
+    ],
+    "foodAndDrink": [
+      { "key": "Coffee", "value": true },
+      { "key": "Brazilian snacks", "value": true }
+    ],
+    "parking": [
+      { "key": "Free street parking", "value": true }
+    ],
+    "accessibility": [
+      { "key": "Wheelchair-accessible entrance", "value": true }
+    ],
+    "payments": [
+      { "key": "Credit cards", "value": true },
+      { "key": "Debit cards", "value": true },
+      { "key": "Contactless (NFC)", "value": true }
+    ]
+  }
+}

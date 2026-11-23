@@ -1,0 +1,183 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="Illustration of a warm Brazilian coffee shop counter with pastéis, coxinhas and a glass of caldo de cana">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#4d3020"/>
+      <stop offset="55%"  stop-color="#3b2418"/>
+      <stop offset="100%" stop-color="#2a1810"/>
+    </linearGradient>
+    <linearGradient id="counterTop" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#c8a15a"/>
+      <stop offset="45%"  stop-color="#a9834a"/>
+      <stop offset="100%" stop-color="#6f5430"/>
+    </linearGradient>
+    <linearGradient id="counterFace" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#5a3a26"/>
+      <stop offset="100%" stop-color="#3b2418"/>
+    </linearGradient>
+    <radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%"   stop-color="#f6d9a0" stop-opacity=".85"/>
+      <stop offset="45%"  stop-color="#e8b96f" stop-opacity=".35"/>
+      <stop offset="100%" stop-color="#c8a15a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="pastelFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%"   stop-color="#e8c98a"/>
+      <stop offset="100%" stop-color="#c9a35c"/>
+    </linearGradient>
+    <linearGradient id="coxinha" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#e0b063"/>
+      <stop offset="100%" stop-color="#b8863c"/>
+    </linearGradient>
+    <linearGradient id="caneJuice" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"   stop-color="#dfe8a8"/>
+      <stop offset="100%" stop-color="#b7c877"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="30"/>
+    </filter>
+    <filter id="grain">
+      <feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" stitchTiles="stitch"/>
+      <feColorMatrix type="saturate" values="0"/>
+      <feComponentTransfer><feFuncA type="linear" slope="0.07"/></feComponentTransfer>
+    </filter>
+  </defs>
+
+  <!-- wall -->
+  <rect width="1600" height="900" fill="url(#wall)"/>
+
+  <!-- faint tiles -->
+  <g stroke="#63412c" stroke-width="2" opacity=".35">
+    <path d="M0 120h1600M0 300h1600M0 470h1600"/>
+    <path d="M240 0v470M560 0v470M880 0v470M1200 0v470M1480 0v470"/>
+  </g>
+
+  <!-- hanging lamps -->
+  <g>
+    <path d="M420 0v118" stroke="#2a1810" stroke-width="5"/>
+    <circle cx="420" cy="196" r="150" fill="url(#lampGlow)" filter="url(#soft)"/>
+    <path d="M378 118h84l-14 46h-56z" fill="#8a6435"/>
+    <ellipse cx="420" cy="164" rx="28" ry="22" fill="#f6d9a0" opacity=".9"/>
+
+    <path d="M1180 0v96" stroke="#2a1810" stroke-width="5"/>
+    <circle cx="1180" cy="174" r="140" fill="url(#lampGlow)" filter="url(#soft)"/>
+    <path d="M1140 96h80l-13 44h-54z" fill="#8a6435"/>
+    <ellipse cx="1180" cy="140" rx="26" ry="20" fill="#f6d9a0" opacity=".9"/>
+  </g>
+
+  <!-- chalkboard menu on the wall -->
+  <g opacity=".92">
+    <rect x="640" y="96" width="330" height="216" rx="10" fill="#1d1410" stroke="#8a6435" stroke-width="7"/>
+    <g stroke="#c8a15a" stroke-linecap="round" opacity=".8">
+      <path d="M672 146h96" stroke-width="6"/>
+      <path d="M672 186h180" stroke-width="4"/>
+      <path d="M672 214h140" stroke-width="4"/>
+      <path d="M672 242h164" stroke-width="4"/>
+      <path d="M672 270h112" stroke-width="4"/>
+    </g>
+    <g fill="#e8d5b0" opacity=".55">
+      <circle cx="922" cy="146" r="16"/>
+    </g>
+  </g>
+
+  <!-- ============ counter ============ -->
+  <rect x="0" y="600" width="1600" height="34" fill="url(#counterTop)"/>
+  <rect x="0" y="634" width="1600" height="266" fill="url(#counterFace)"/>
+  <g stroke="#4d3020" stroke-width="2" opacity=".6">
+    <path d="M200 634v266M520 634v266M900 634v266M1280 634v266"/>
+  </g>
+  <!-- counter top highlight -->
+  <rect x="0" y="600" width="1600" height="5" fill="#e0c089" opacity=".55"/>
+
+  <!-- ============ pastel ============ -->
+  <g transform="translate(180 470)">
+    <!-- plate -->
+    <ellipse cx="120" cy="118" rx="132" ry="26" fill="#e5d8bf" opacity=".22"/>
+    <ellipse cx="120" cy="112" rx="126" ry="23" fill="#f2ead9" opacity=".9"/>
+    <!-- pastel body -->
+    <path d="M28 96 L120 34 L212 96 L120 108 Z" fill="url(#pastelFill)"/>
+    <path d="M28 96 L120 108 L212 96" fill="none" stroke="#a9834a" stroke-width="3.5" stroke-linejoin="round"/>
+    <!-- crimped edges -->
+    <g stroke="#a9834a" stroke-width="3" stroke-linecap="round" opacity=".8">
+      <path d="M44 90l8 8M62 82l7 8M80 74l7 8M98 66l6 8M118 60l5 8M138 66l-5 8M158 74l-7 8M176 82l-7 8M194 90l-8 8"/>
+    </g>
+    <!-- steam -->
+    <g stroke="#f2ead9" stroke-width="3.5" stroke-linecap="round" opacity=".32" fill="none">
+      <path d="M84 22c-8-14 8-24 0-38"/>
+      <path d="M120 12c-8-14 8-24 0-38"/>
+      <path d="M156 22c-8-14 8-24 0-38"/>
+    </g>
+  </g>
+
+  <!-- ============ coxinha ============ -->
+  <g transform="translate(520 500)">
+    <ellipse cx="90" cy="86" rx="96" ry="20" fill="#e5d8bf" opacity=".2"/>
+    <ellipse cx="90" cy="80" rx="92" ry="18" fill="#f2ead9" opacity=".88"/>
+    <path d="M90 8c30 0 54 30 54 60 0 18-14 26-24 34-6 5-8 8-12 8s-6-3-12-8c-10-8-24-16-24-34 0-30 24-60 54-60Z" fill="url(#coxinha)"/>
+    <path d="M76 34c4 12 10 20 18 26" stroke="#9a6d2c" stroke-width="3.5" stroke-linecap="round" fill="none" opacity=".7"/>
+    <g fill="#b8863c" opacity=".5">
+      <circle cx="74" cy="58" r="2.4"/><circle cx="104" cy="50" r="2.2"/><circle cx="88" cy="72" r="2"/>
+    </g>
+  </g>
+
+  <!-- ============ caldo de cana glass ============ -->
+  <g transform="translate(900 420)">
+    <ellipse cx="86" cy="182" rx="72" ry="16" fill="#e5d8bf" opacity=".18"/>
+    <!-- glass -->
+    <path d="M42 26h88l-9 148a12 12 0 0 1-12 11H63a12 12 0 0 1-12-11Z" fill="#dfe8ee" opacity=".28"/>
+    <path d="M46 44h80l-8 130a10 10 0 0 1-10 9H64a10 10 0 0 1-10-9Z" fill="url(#caneJuice)"/>
+    <!-- glass rim + edge -->
+    <path d="M42 26h88" stroke="#f2ead9" stroke-width="4" stroke-linecap="round" opacity=".85"/>
+    <path d="M42 26h88l-9 148a12 12 0 0 1-12 11H63a12 12 0 0 1-12-11Z" fill="none" stroke="#f2ead9" stroke-width="3.5" opacity=".5"/>
+    <!-- straw -->
+    <path d="M96 12l-10 128" stroke="#e07a5f" stroke-width="8" stroke-linecap="round"/>
+    <!-- ice -->
+    <g fill="#ffffff" opacity=".35">
+      <rect x="60" y="66" width="22" height="20" rx="5" transform="rotate(-12 71 76)"/>
+      <rect x="90" y="92" width="20" height="18" rx="5" transform="rotate(16 100 101)"/>
+    </g>
+    <!-- condensation -->
+    <g fill="#ffffff" opacity=".3">
+      <circle cx="58" cy="112" r="3"/><circle cx="66" cy="140" r="2.5"/><circle cx="112" cy="126" r="3"/>
+    </g>
+  </g>
+
+  <!-- ============ coffee cup ============ -->
+  <g transform="translate(1250 500)">
+    <ellipse cx="92" cy="104" rx="88" ry="18" fill="#e5d8bf" opacity=".2"/>
+    <ellipse cx="92" cy="98" rx="84" ry="16" fill="#f2ead9" opacity=".9"/>
+    <!-- saucer + cup -->
+    <path d="M34 72h108l-10 22H44Z" fill="#f2ead9" opacity=".92"/>
+    <path d="M40 40h96v22a32 32 0 0 1-32 30H72a32 32 0 0 1-32-30Z" fill="#faf6ef"/>
+    <path d="M136 46h9a12 12 0 0 1 0 24h-9" fill="none" stroke="#faf6ef" stroke-width="7" stroke-linecap="round"/>
+    <ellipse cx="88" cy="44" rx="44" ry="9" fill="#4d3020"/>
+    <!-- steam -->
+    <g stroke="#f2ead9" stroke-width="3" stroke-linecap="round" opacity=".35" fill="none">
+      <path d="M70 30c-6-11 6-18 0-29"/>
+      <path d="M92 24c-6-11 6-18 0-29"/>
+      <path d="M114 30c-6-11 6-18 0-29"/>
+    </g>
+  </g>
+
+  <!-- ============ açaí bowl (foreground right) ============ -->
+  <g transform="translate(1408 646)">
+    <ellipse cx="98" cy="126" rx="106" ry="20" fill="#1d1410" opacity=".35"/>
+    <path d="M14 42h168l-16 74a22 22 0 0 1-21 17H51a22 22 0 0 1-21-17Z" fill="#f2ead9"/>
+    <path d="M22 50h152l-14 64a16 16 0 0 1-15 13H51a16 16 0 0 1-15-13Z" fill="#5b2d6e"/>
+    <!-- toppings -->
+    <g>
+      <circle cx="62" cy="66" r="9" fill="#8e5ba6"/>
+      <circle cx="86" cy="60" r="8" fill="#3d8a4f"/>
+      <circle cx="110" cy="68" r="9" fill="#e08c34"/>
+      <circle cx="132" cy="62" r="7" fill="#8e5ba6"/>
+      <rect x="70" y="80" width="16" height="5" rx="2.5" fill="#e8d5b0" transform="rotate(-14 78 82)"/>
+      <rect x="96" y="84" width="16" height="5" rx="2.5" fill="#e8d5b0" transform="rotate(10 104 86)"/>
+      <rect x="120" y="80" width="16" height="5" rx="2.5" fill="#e8d5b0" transform="rotate(-6 128 82)"/>
+    </g>
+  </g>
+
+  <!-- foreground shadow -->
+  <rect y="856" width="1600" height="44" fill="#1d1410" opacity=".45"/>
+
+  <!-- warm wash + grain -->
+  <rect width="1600" height="900" fill="#c8a15a" opacity=".06"/>
+  <rect width="1600" height="900" filter="url(#grain)" opacity=".5"/>
+</svg>
