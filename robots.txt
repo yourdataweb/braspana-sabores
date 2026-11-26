@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://yourdataweb.github.io/braspana-sabores/sitemap.xml
+Sitemap: https://braspana-sabores.vilanovailageltru.info/sitemap.xml

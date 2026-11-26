@@ -1,0 +1,106 @@
+{
+  "locale": "ca",
+  "htmlLang": "ca",
+  "ogLocale": "ca_ES",
+  "pathPrefix": "./",
+  "countryName": "Espanya",
+  "brand": {
+    "sub": "Cuina brasilera · Vilanova"
+  },
+  "meta": {
+    "title": "Braspaña Sabores · Cuina brasilera a Vilanova i la Geltrú",
+    "description": "Pastel de feira, coxinha i cafè brasiler a Vilanova i la Geltrú. Cuina de carrer del Brasil, feta al moment. Demana per WhatsApp o telèfon: 667 34 01 75.",
+    "ogAlt": "Braspaña Sabores, cuina brasilera a Vilanova i la Geltrú"
+  },
+  "nav": {
+    "roast": "Què fem",
+    "menu": "La carta",
+    "visit": "On som",
+    "skip": "Ves al contingut principal",
+    "label": "Navegació principal"
+  },
+  "hero": {
+    "eyebrow": "Vilanova i la Geltrú",
+    "title": "El gust del Brasil, a prop de casa",
+    "lede": "Pastel de feira fet al moment, coxinha de pollastre i cafè brasiler. Cuina de carrer del Brasil en un racó de Vilanova, per matar el cuquet o retrobar-s'hi.",
+    "whatsapp": "Demanar per WhatsApp",
+    "photoAlt": "foto de Braspaña Sabores",
+    "credit": "Foto:"
+  },
+  "strip": {
+    "label": "Informació pràctica",
+    "where": "On som",
+    "order": "Comandes",
+    "orderValue": "Per WhatsApp o telèfon",
+    "rating": "Valoració",
+    "reviews": "opinions"
+  },
+  "roast": {
+    "eyebrow": "Què fem",
+    "title": "Cuina de carrer brasilera",
+    "lead": "El que surt de la cuina és el que es menjava als carrers del Brasil: massa fregida al moment, farcits generosos i cafè de veritat."
+  },
+  "menu": {
+    "eyebrow": "La carta",
+    "title": "Què hi trobaràs",
+    "lead": "Una carta curta, centrada en el que fan bé. Canvia segons el dia i el que hi hagi.",
+    "items": {
+      "pastel": {
+        "name": "Pastel de feira",
+        "note": "La massa fina i cruixent del mercat brasiler, fregida al moment."
+      },
+      "coxinha": {
+        "name": "Coxinha de pollastre",
+        "note": "La forma de cuixa, farcida de pollastre desfilat."
+      },
+      "caldo": {
+        "name": "Caldo de cana",
+        "note": "El suc de canya acabat d'esprémer, dolç i fresc."
+      },
+      "bolo": {
+        "name": "Bolo de milho",
+        "note": "Pastís de blat de moro, tendre i no gaire dolç."
+      },
+      "cafe": {
+        "name": "Cafè brasiler",
+        "note": "Cafè intens, com es pren al Brasil."
+      },
+      "yucca": {
+        "name": "Coxinhac de yuca",
+        "note": "La versió de mandioca, per als qui no mengen pollastre."
+      }
+    },
+    "note": "Sense preus en aquesta pàgina: pregunta per WhatsApp i et diem què hi ha avui."
+  },
+  "reviews": {
+    "eyebrow": "Opinions",
+    "title": "Què diu qui ja hi ha menjat",
+    "lead": "Extractes d'opinions publicades a Google, la majoria de clients brasilers que hi reconeixen el gust de casa.",
+    "readAll": "Llegeix totes les opinions"
+  },
+  "visit": {
+    "eyebrow": "On som",
+    "title": "Com arribar-hi",
+    "lead": "Som a Vilanova i la Geltrú. Demana per WhatsApp i et diem l'adreça exacta i què hi ha aquell dia.",
+    "address": "Adreça",
+    "phone": "Telèfon",
+    "plus": "Plus Code",
+    "directions": "Com arribar-hi",
+    "mapTitle": "Mapa amb la ubicació de Braspaña Sabores a Vilanova i la Geltrú",
+    "mapNote": "El mapa només es carrega si acceptes les galetes de tercers.",
+    "mapLoad": "Carrega el mapa"
+  },
+  "footer": {
+    "legal": "Aquesta pàgina és una fitxa informativa del negoci. Per a comandes i disponibilitat, contacta directament amb l'establiment."
+  },
+  "cookies": {
+    "text": "Fem servir galetes tècniques per recordar la teva elecció. Si acceptes, també mesurem les visites amb Google Analytics i carreguem el mapa de Google.",
+    "accept": "Accepta",
+    "reject": "Només essencials",
+    "policy": "Més informació"
+  },
+  "a11y": {
+    "langSwitch": "Canviar d'idioma",
+    "menuToggle": "Obre el menú de navegació"
+  }
+}

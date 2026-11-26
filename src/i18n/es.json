@@ -1,162 +1,106 @@
 {
   "locale": "es",
-  "htmlLang": "es-ES",
+  "htmlLang": "es",
   "ogLocale": "es_ES",
-  "ogLocaleAlternate": "en_GB",
-  "dir": "ltr",
-  "pathPrefix": "",
-  "meta": {
-    "title": "Braspaña Sabores — Pastelería y café brasileño en Vilanova i la Geltrú",
-    "description": "Braspaña Sabores, café y pastelería brasileña en Vilanova i la Geltrú. Pastel de feira, coxinha, caldo de cana, tapioca y açaí, hechos al momento. Abierto de lunes a sábado desde las 6:00.",
-    "ogTitle": "Braspaña Sabores — Sabor de Brasil en Vilanova",
-    "ogDescription": "Pastel de feira, coxinha, caldo de cana y açaí, hechos al momento. Café brasileño en Vilanova i la Geltrú."
-  },
-  "a11y": {
-    "skip": "Ir al contenido",
-    "home": "Braspaña Sabores — inicio",
-    "openMenu": "Abrir menú",
-    "closeMenu": "Cerrar menú",
-    "mainNav": "Navegación principal",
-    "footerNav": "Navegación del pie de página",
-    "socialNav": "Redes sociales",
-    "atAGlance": "De un vistazo",
-    "mapTitle": "Mapa con la ubicación de Braspaña Sabores en Vilanova i la Geltrú",
-    "waAria": "Escribir a Braspaña Sabores por WhatsApp al 667 34 01 75",
-    "telAria": "Llamar a Braspaña Sabores al 667 34 01 75",
-    "ratingAria": "Valoración de 4,7 sobre 5 basada en 58 reseñas de Google",
-    "langSwitch": "Cambiar idioma",
-    "newWindow": "se abre en una pestaña nueva"
-  },
+  "pathPrefix": "../",
+  "countryName": "España",
   "brand": {
-    "sub": "Pastelería brasileña · Vilanova i la Geltrú"
+    "sub": "Cocina brasileña · Vilanova"
+  },
+  "meta": {
+    "title": "Braspaña Sabores · Cocina brasileña en Vilanova i la Geltrú",
+    "description": "Pastel de feira, coxinha y café brasileño en Vilanova i la Geltrú. Cocina de calle de Brasil, hecha al momento. Pide por WhatsApp o teléfono: 667 34 01 75.",
+    "ogAlt": "Braspaña Sabores, cocina brasileña en Vilanova i la Geltrú"
   },
   "nav": {
-    "about": "La casa",
-    "specialties": "Especialidades",
-    "reviews": "Opiniones",
-    "visit": "Visítanos"
-  },
-  "langSwitch": {
-    "es": "ES",
-    "en": "EN",
-    "esAria": "Ver esta página en español",
-    "enAria": "Ver esta página en inglés"
+    "roast": "Qué hacemos",
+    "menu": "La carta",
+    "visit": "Dónde estamos",
+    "skip": "Ir al contenido principal",
+    "label": "Navegación principal"
   },
   "hero": {
-    "eyebrow": "Café y pastelería brasileña",
-    "openNow": "Abierto ahora · hasta las {close}",
-    "closedToday": "Hoy cerrado",
-    "closedOpens": "Cerrado · abre {open}",
-    "title": "Sabor de Brasil,<br>hecho al momento.",
-    "lede": "Pastel de feira crujiente, coxinha recién frita, caldo de cana frío y un café como el de casa. En Vilanova i la Geltrú, desde las seis de la mañana.",
-    "ctaPrimary": "Cómo llegar",
-    "ctaWhatsapp": "WhatsApp",
-    "statRating": "sobre 5 en Google",
-    "statReviews": "reseñas en Google",
-    "statPrice": "por persona"
+    "eyebrow": "Vilanova i la Geltrú",
+    "title": "El sabor de Brasil, cerca de casa",
+    "lede": "Pastel de feira recién hecho, coxinha de pollo y café brasileño. Cocina de calle de Brasil en un rincón de Vilanova, para matar el gusanillo o reencontrarse.",
+    "whatsapp": "Pedir por WhatsApp",
+    "photoAlt": "foto de Braspaña Sabores",
+    "credit": "Foto:"
   },
-  "about": {
-    "eyebrow": "La casa",
-    "title": "Comida brasileña de verdad,<br>a un paso de casa.",
-    "p1": "Braspaña nació de la saudade: esa nostalgia concreta de un pastel de feira recién sacado del aceite, de un vaso de caldo de cana helado, de una coxinha que sabe exactamente a lo que tiene que saber.",
-    "p2": "Aquí todo se hace al momento, en pequeñas tandas, como se hace en Brasil. No hay atajos ni congelados: hay masa, hay relleno y hay alguien friendo para ti cuando lo pides.",
-    "note": "Abrimos a las 6:00, de lunes a sábado.",
-    "factAddress": "Dónde estamos",
-    "factPhone": "Teléfono",
-    "factHours": "Horario",
-    "hoursValue": "Lunes a sábado, desde las 6:00",
-    "factType": "Qué somos",
-    "typeValue": "Cafetería y tienda de comida brasileña"
+  "strip": {
+    "label": "Información práctica",
+    "where": "Dónde estamos",
+    "order": "Pedidos",
+    "orderValue": "Por WhatsApp o teléfono",
+    "rating": "Valoración",
+    "reviews": "opiniones"
   },
-  "specialties": {
-    "eyebrow": "Especialidades",
-    "title": "Lo que sale de la freidora",
-    "pastel": {
-      "title": "Pastel de feira",
-      "text": "Masa fina y crujiente, frita al momento. El clásico de cualquier feria brasileña, del tamaño que no te acabas."
-    },
-    "coxinha": {
-      "title": "Coxinha",
-      "text": "Pollo desmenuzado envuelto en masa de mandioca, empanada y frita. Con forma de gota, como debe ser."
-    },
-    "caldo": {
-      "title": "Caldo de cana",
-      "text": "Caña de azúcar exprimida al momento, servida bien fría. Dulce, ligero, imposible de imitar."
-    },
-    "tapioca": {
-      "title": "Tapioca recheada",
-      "text": "Tortita de almidón de mandioca con relleno a tu gusto. Sin gluten y hecha en un minuto."
-    },
-    "acai": {
-      "title": "Açaí",
-      "text": "Açaí cremoso con fruta y granola. Frío, espeso, con el sabor justo del norte de Brasil."
-    },
-    "cafe": {
-      "title": "Café brasileño",
-      "text": "Café de verdad, servido como se sirve en Brasil: pequeño, caliente y sin ceremonia."
-    }
+  "roast": {
+    "eyebrow": "Qué hacemos",
+    "title": "Cocina de calle brasileña",
+    "lead": "Lo que sale de la cocina es lo que se comía en las calles de Brasil: masa frita al momento, rellenos generosos y café de verdad."
   },
-  "capabilities": {
-    "serviceOptions": "Servicio",
-    "foodAndDrink": "Comida y bebida",
-    "atmosphere": "Ambiente",
-    "amenities": "Instalaciones",
-    "parking": "Aparcamiento",
-    "accessibility": "Accesibilidad",
-    "payments": "Pagos",
-    "labels": {
-      "Dine-in": "Para comer en el local",
-      "Takeaway": "Para llevar",
-      "Coffee": "Café",
-      "Brazilian snacks": "Comida brasileña",
-      "Free street parking": "Aparcamiento gratuito en la calle",
-      "Wheelchair-accessible entrance": "Entrada accesible en silla de ruedas",
-      "Credit cards": "Tarjetas de crédito",
-      "Debit cards": "Tarjetas de débito",
-      "Contactless (NFC)": "Pago sin contacto (NFC)"
-    }
+  "menu": {
+    "eyebrow": "La carta",
+    "title": "Qué vas a encontrar",
+    "lead": "Una carta corta, centrada en lo que hacen bien. Cambia según el día y lo que haya.",
+    "items": {
+      "pastel": {
+        "name": "Pastel de feira",
+        "note": "La masa fina y crujiente del mercado brasileño, frita al momento."
+      },
+      "coxinha": {
+        "name": "Coxinha de pollo",
+        "note": "La forma de muslo, rellena de pollo desmenuzado."
+      },
+      "caldo": {
+        "name": "Caldo de caña",
+        "note": "El zumo de caña recién exprimido, dulce y fresco."
+      },
+      "bolo": {
+        "name": "Bolo de milho",
+        "note": "Pastel de maíz, tierno y no demasiado dulce."
+      },
+      "cafe": {
+        "name": "Café brasileño",
+        "note": "Café intenso, como se toma en Brasil."
+      },
+      "yucca": {
+        "name": "Coxinhac de yuca",
+        "note": "La versión de mandioca, para quien no come pollo."
+      }
+    },
+    "note": "Sin precios en esta página: pregunta por WhatsApp y te decimos qué hay hoy."
   },
   "reviews": {
-    "eyebrow": "Lo que dicen",
-    "title": "Casi todo el mundo vuelve",
-    "count": "{count} reseñas",
-    "onGoogle": "en Google",
-    "readAll": "Ver todas las reseñas en Google",
-    "originalIn": "Original en {lang}",
-    "originalText": "Texto original"
+    "eyebrow": "Opiniones",
+    "title": "Qué dice quien ya ha comido",
+    "lead": "Extractos de opiniones publicadas en Google, la mayoría de clientes brasileños que reconocen el sabor de casa.",
+    "readAll": "Leer todas las opiniones"
   },
   "visit": {
-    "eyebrow": "Visítanos",
-    "title": "Pásate por Braspaña",
-    "whatsapp": "WhatsApp",
-    "call": "Llamar",
+    "eyebrow": "Dónde estamos",
+    "title": "Cómo llegar",
+    "lead": "Estamos en Vilanova i la Geltrú. Pregunta por WhatsApp y te decimos la dirección exacta y qué hay ese día.",
+    "address": "Dirección",
+    "phone": "Teléfono",
+    "plus": "Plus Code",
     "directions": "Cómo llegar",
-    "directionsSub": "Abrir en Maps",
-    "hours": "Horario de apertura",
-    "openMap": "Abrir en Google Maps",
-    "today": "Hoy",
-    "closed": "Cerrado"
+    "mapTitle": "Mapa con la ubicación de Braspaña Sabores en Vilanova i la Geltrú",
+    "mapNote": "El mapa solo se carga si aceptas las cookies de terceros.",
+    "mapLoad": "Cargar el mapa"
   },
   "footer": {
-    "writeReview": "Escribir una reseña",
-    "rights": "Todos los derechos reservados.",
-    "dataNote": "Datos de Google Maps, actualizados a {date}."
+    "legal": "Esta página es una ficha informativa del negocio. Para pedidos y disponibilidad, contacta directamente con el establecimiento."
   },
-  "days": {
-    "0": "Domingo",
-    "1": "Lunes",
-    "2": "Martes",
-    "3": "Miércoles",
-    "4": "Jueves",
-    "5": "Viernes",
-    "6": "Sábado"
+  "cookies": {
+    "text": "Usamos cookies técnicas para recordar tu elección. Si aceptas, además medimos las visitas con Google Analytics y cargamos el mapa de Google.",
+    "accept": "Aceptar",
+    "reject": "Solo lo esencial",
+    "policy": "Más información"
   },
-  "languageNames": {
-    "pt": "portugués",
-    "es": "español",
-    "en": "inglés"
-  },
-  "place": {
-    "country": "España"
+  "a11y": {
+    "langSwitch": "Cambiar de idioma",
+    "menuToggle": "Abrir menú de navegación"
   }
 }

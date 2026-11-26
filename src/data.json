@@ -1,0 +1,93 @@
+{
+  "slug": "braspana-sabores",
+  "name": "BRASPAÑA SABORES ( Breston)",
+  "legalName": "BRASPAÑA SABORES ( Breston)",
+  "schemaType": "CafeOrCoffeeShop",
+  "primaryType": "coffee_shop",
+  "street": "",
+  "postalCode": "08800",
+  "city": "Vilanova i la Geltrú",
+  "region": "Barcelona",
+  "country": "ES",
+  "latitude": 41.222557900000005,
+  "longitude": 1.7314825999999999,
+  "phoneNational": "667 34 01 75",
+  "phoneE164": "+34667340175",
+  "phoneIsMobile": true,
+  "website": "",
+  "rating": 4.7,
+  "ratingCount": 58,
+  "plusCode": "6PFJ+2H Vilanova i la Geltrú, Spain",
+  "mapsPlaceUri": "https://maps.google.com/?cid=14217888757547333980&g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsReviewsUri": "https://www.google.com/maps/place//data=!4m4!3m3!1s0x12a386e6d2f0cec5:0xc550167ed1a0f95c!9m1!1b1?g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "mapsDirectionsUri": "https://www.google.com/maps/dir//''/data=!4m7!4m6!1m1!4e2!1m2!1m1!1s0x12a386e6d2f0cec5:0xc550167ed1a0f95c!3e0?g_mp=Cilnb29nbGUubWFwcy5wbGFjZXMudjEuUGxhY2VzLlNlYXJjaE5lYXJieRACGAQgAA",
+  "servesCuisine": [],
+  "acceptsReservations": false,
+  "dineIn": true,
+  "takeout": false,
+  "delivery": false,
+  "outdoorSeating": false,
+  "goodForGroups": false,
+  "goodForChildren": false,
+  "allowsDogs": false,
+  "servesDessert": false,
+  "servesCoffee": true,
+  "acceptsCards": true,
+  "wheelchairAccessible": true,
+  "parking": [
+    "free_street_parking"
+  ],
+  "reviews": [
+    {
+      "author": "Iza B",
+      "text": "Atendimento gentil e são muito simpáticos. Comemos coxinha de frango com massa de mandioca e pastel frito de carne. Estava tudo bom e bem feito! Gostaria que tivessem coxinha tradicional com massa tradicional também para matar a vontade do sabor tradicional da coxinha brasileira. Um lugar que voltarei para matar a saudade da comida brasileira.",
+      "rating": 5.0,
+      "language": "pt",
+      "relative": "2 months ago"
+    },
+    {
+      "author": "Bruna Bermejo",
+      "text": "Pensa em um ambiente bom, cafezinho gostoso, pastel de feira MARAVILHOSO e muito grande (nunca conseguir terminar de comer kkkk) e um caldo de cana maravilhoso, também! Estou muito contente com este restaurante. Eles fazem tudo ao momento, coisa que é difícil de achar hoje em dia. As coisas são bem em conta. Não é caro. Na minha opinião, é até barato demais! A Elaine e a cozinheira, são um 1000/10!\nEstão de parabéns!",
+      "rating": 5.0,
+      "language": "pt",
+      "relative": "3 months ago"
+    },
+    {
+      "author": "HORTA BOM DEMAIS",
+      "text": "🇧🇷✨ Experiência incrível no Braspaña!\n\nO pastel de feira estava simplesmente perfeito — crocante por fora e recheio delicioso, igualzinho ao do Brasil! 😍 E o Pastel de costelinha… sem palavras, uma verdadeira delícia, cheio de sabor e bem servido!\n\nComida que traz aquela nostalgia boa e mata a saudade de casa ❤️\nVoltarei sempre, com certeza!\n\n#Braspaña #PastelDeFeira #ComidaBrasileira #SaborDoBrasil",
+      "rating": 5.0,
+      "language": "pt",
+      "relative": "7 months ago"
+    },
+    {
+      "author": "Shirley Martins",
+      "text": "Ontem matei a saudade de comer pastel de feira, Beber  aquele Caldo de cana, Aquela tapioca recheada que nao pode faltar e Coxinhas, Tudo uma delicia!!\nNota 10 ( Atendimento, Ambiente e Comida)",
+      "rating": 5.0,
+      "language": "pt",
+      "relative": "5 months ago"
+    },
+    {
+      "author": "Raquel Saade",
+      "text": "Amazing Brazilian food!\nThe mixed fairground cake and the yucca coxinha with chicken were the best!! The açaí was delicious!!!!\nThe atmosphere was so, so, so nice; I felt like I was in Brazil for a moment. ❤️",
+      "rating": 5.0,
+      "language": "en-US",
+      "relative": "7 months ago"
+    }
+  ],
+  "placeId": "ChIJxc7w0uaGoxIRXPmg0X4WUMU",
+  "heroPhoto": "assets/img/hero-photo.jpg",
+  "photoCredit": "Érico Köhler",
+  "photoCreditUrl": "https://maps.google.com/maps/contrib/114455813075711775706",
+  "siteDomain": "vilanovailageltru.info",
+  "sourceFile": "vilanova_i_la_geltru_catalonia_spain.csv",
+  "redirects": {
+    "ca": "/"
+  },
+  "manifestTheme": "#3b2416",
+  "manifestBackground": "#fbf7f1",
+  "accent": "#3b2416",
+  "deep": "#241209",
+  "gold": "#c8873a",
+  "light": "#d9a97a",
+  "photoSelector": ".hero__media img"
+}

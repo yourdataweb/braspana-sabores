@@ -1,105 +1,83 @@
-# Braspaña Sabores
+# Braspaña Sabores — website
 
-Bilingual static website for **Braspaña Sabores**, a Brazilian café, bakery and food store in Vilanova i la Geltrú (Barcelona).
+Static site for **Braspaña Sabores**, a Brazilian street-food café at Vilanova i la Geltrú, Vilanova i la Geltrú.
 
-**Live:** https://yourdataweb.github.io/braspana-sabores/
-**English:** https://yourdataweb.github.io/braspana-sabores/en/
+Three languages, server-rendered HTML per locale, plain CSS and one small
+progressive-enhancement script. No framework, no runtime dependencies.
 
----
+## Live site
 
-## Project identity
+- **Catalan (default):** <https://braspana-sabores.vilanovailageltru.info/>
+- **Spanish:** <https://braspana-sabores.vilanovailageltru.info/es/>
+- **English:** <https://braspana-sabores.vilanovailageltru.info/en/>
 
-| Field | Value |
-|---|---|
-| Code name | `braspana-sabores` |
-| DNS label | `braspana-sabores` (RFC 1123, 16 chars) |
-| Repository | `braspana-sabores` |
-| S3 prefix | `braspana-sabores/` |
+## Page structure
 
-Derived from the business name `BRASPAÑA SABORES ( Breston)`. The ñ is transliterated to `n` and the parenthetical dropped, so the string is pure ASCII lowercase with hyphens — safe as a subdomain, a GitHub repository, and an S3 prefix.
+Photo-led hero with a WhatsApp order button, a three-item practical strip. Then what the
+kitchen makes (pastel de feira, coxinha, sugarcane juice, corn cake, Brazilian coffee), the menu
+as a price-free list, guest reviews — mostly from Brazilian customers — and a visit section with
+the consent-gated map.
 
-## Stack
-
-Hand-written HTML, CSS and vanilla JS with a small dependency-free build. No framework, no runtime libraries.
+## Repo layout
 
 ```
-src/template.html      one template with {{i18n}} holes
-src/place.json         business data
-src/i18n/{es,en}.json  strings per locale
-scripts/build.mjs      emits index.html (es) + en/index.html (en)
-scripts/make-icons.mjs generates og.png + apple-touch-icon.png
-scripts/verify.mjs     headless assertions
+index.html                 Catalan (default locale)
+es/index.html              Spanish
+en/index.html              English
+ca/index.html              redirect to / (the default locale used to live here)
+src/template.html          the single template the build renders
+src/data.json              business data (address, phone, coordinates, rating)
+src/locales.json           locale list, which one is default, hreflang codes
+src/i18n/{ca,es,en}.json   all copy, per locale
+scripts/build.mjs          renders the locale pages + sitemap, robots, manifest
+scripts/assets.mjs         app icons and the Open Graph image
+scripts/card.mjs           handover card, 10.5 x 14.5 cm @ 300 dpi
+scripts/verify.mjs         headless checks against the built output
+assets/css/styles.css      all styles, responsive from 320 px up
+assets/js/main.js          navigation, reveal, cookie consent, lazy map
+assets/fonts/              self-hosted Fraunces and Inter (woff2 subsets)
+assets/img/                mark, icons, hero photo, OG image
+assets/photos/handover.png handover card with a QR to the live site
+.github/workflows/         deploy to S3 on push to main
 ```
 
-### Build
+## Build
+
+Requires Node 20+ and `puppeteer` for the asset scripts.
 
 ```bash
-node scripts/build.mjs
+node scripts/build.mjs     # render the locale pages
+node scripts/assets.mjs    # regenerate icons and og-image.jpg
+node scripts/card.mjs      # regenerate the handover card
+node scripts/verify.mjs    # headless verification of the built output
 ```
 
-Emits both locales plus `sitemap.xml`, `manifest.webmanifest`, `robots.txt`. Fails non-zero if any `{{hole}}` or `<!--MARKER-->` survives into the output.
+`build.mjs` fails on an unresolved template placeholder, an empty `href`/`src`, invalid
+JSON-LD, or a feature icon that has no entry in `scripts/icons.json`.
 
-## Theme
+## Editing content
 
-The business is a `coffee_shop` (types: `coffee_shop`, `cafe`, `food_store`, `food`, `store`) serving Brazilian street food — so the design is a warm coffee house, not a generic template: roasted browns, cream paper, brass accents, with tropical green and açaí purple for the specialty cards. The hero artwork is a hand-drawn SVG of a counter with pastel, coxinha, caldo de cana, coffee and an açaí bowl. Six themed line icons match each specialty.
-
-## Localization
-
-- Spanish default at `/`
-- English at `/en/`
-- Each locale is **real server-rendered HTML** with its own `<html lang>`, canonical, `og:locale` and reciprocal `hreflang` — so both index independently, and the switch works with JS disabled
-- Numbers and dates formatted per locale (`4,7` vs `4.7`)
-- Address country is localized (`España` / `Spain`)
-
-## Business rules implemented in the build
-
-| Rule | Result |
-|---|---|
-| `rating > 4` → big star badge | 4.7 → shown |
-| `user_rating_count > 50` → show count | 58 → shown |
-| phone is a mobile → WhatsApp link | `+34 667…` is a Spanish mobile → shown |
-| review rating ≥ 4 → testimonial | 5 eligible, 3 longest rendered |
-| no pre-filled WhatsApp message | link is bare `https://wa.me/34667340175` |
-
-Mobile detection is `+34` followed by 6 or 7. A landline would get a call link only, with the WhatsApp affordance removed from the DOM.
-
-## Opening hours
-
-Monday–Friday 06:00–21:30, Saturday 06:00–20:00, **Sunday closed**. The Sunday row renders as "Cerrado" / "Closed" (not a fake time range), and the live status line says "Hoy cerrado" when it is Sunday in Madrid.
-
-## Accessibility
-
-Skip link, single `h1` with sequential headings, visible focus rings, `aria-expanded`/`aria-controls` on the drawer, Escape closes it, `aria-label` on icon-only links with "opens in a new tab" announced, decorative SVGs `aria-hidden`, review text carries `lang="pt"` (its real language) with an "Original en portugués" note, `prefers-reduced-motion` respected, print stylesheet.
-
-## SEO
-
-Per-locale title/description, reciprocal `hreflang` in HTML and sitemap, canonical per locale, Open Graph + Twitter card with a generated 1200×630 image, `CafeOrCoffeeShop` structured data (address, geo, rating, hours, `sameAs`), `robots.txt`, `sitemap.xml`, web manifest.
-
-## Social links
-
-The Places payload contains **no social profiles** — only the Google Maps listing. The social bar is generic: add a URL under `social` in `src/place.json` and the icon appears.
-
-```json
-"social": {
-  "google": "https://maps.google.com/?cid=…",
-  "instagram": "https://instagram.com/…",
-  "facebook": "https://facebook.com/…",
-  "tiktok": "https://tiktok.com/@…"
-}
-```
-
-Supported: `google`, `instagram`, `facebook`, `tiktok`, `tripadvisor`.
-
-## Photos
-
-`raw_photos` are Places API resource names, not URLs, and cannot be hotlinked without an API key. The site ships SVG artwork instead — fast, dependency-free and on-theme. To use the real photographs, fetch them with a Places API key, save into `assets/photos/`, and point the build at them.
+Text lives in `src/i18n/*.json`; shared business facts live in `src/data.json`. Change those,
+run `node scripts/build.mjs`, commit the regenerated HTML. Do not hand-edit the generated
+`index.html` files — they are overwritten.
 
 ## Deploy
 
-Push to `main`. The workflow builds, gates on unresolved template holes, and deploys to Pages. First-time setup: **Settings → Pages → Source: GitHub Actions**.
+Pushing to `main` runs `.github/workflows/deploy-aws.yml`: it builds the site, authenticates
+to AWS with OIDC (no stored keys) and uploads to
+`s3://dr-static-websites/vilanovailageltru.info/braspana-sabores/`. The subdomain is served from the bucket's CDN, so a
+deploy is live within a few minutes.
 
-Asset paths are relative, so it also works from a subpath or an S3 prefix unchanged.
+## Technical notes
 
-## Credits
-
-Business data from the Google Maps Places API. Review text and reviewer avatars belong to their authors and are shown as attributed testimonials. Map embed served by Google Maps.
+- **SEO** — per-locale `<title>`, description, canonical, reciprocal `hreflang` including
+  `x-default`, Open Graph and Twitter cards, `sitemap.xml` with alternates, `robots.txt`, and
+  `CafeOrCoffeeShop` structured data. Every absolute URL derives from the site's own domain.
+- **Accessibility** — one `h1` per page, skip link, landmark elements, visible focus rings,
+  body text at or above 4.5:1 contrast, `aria-expanded` on the navigation toggle, Escape
+  closes the drawer, and content stays readable with JavaScript disabled.
+- **Performance** — self-hosted woff2 subsets preloaded, one CSS file, one deferred JS file,
+  no third-party requests until the visitor opts in.
+- **Privacy** — the cookie notice offers accept and reject. Nothing is fetched from Google —
+  analytics script or map iframe — until the visitor accepts; rejecting loads neither and is
+  remembered.
