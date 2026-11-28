@@ -89,5 +89,8 @@
   "deep": "#241209",
   "gold": "#c8873a",
   "light": "#d9a97a",
-  "photoSelector": ".hero__media img"
+  "photoSelector": ".hero__media img",
+  "offerEnds": "2027-02-23",
+  "buyUrl": "",
+  "offerEmail": ""
 }
